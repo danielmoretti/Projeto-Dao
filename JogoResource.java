@@ -14,7 +14,7 @@ public class JogoResource {
     public JogoResource() {
         proximoId = 1;
         jogos = new ArrayList<>();
-        jogos.add(new Jogo(proximoId++, "São Paulo", "Palmeiras", 2, 1));
+        jogos.add(new Jogo(proximoId++, "São Paulo", "Corinthians", 1, 2));
         jogos.add(new Jogo(proximoId++, "Santos", "Fluminense", 4, 1));
         jogos.add(new Jogo(proximoId++, "Flamengo", "Palmeiras", 2, 3));
     }
