@@ -1,7 +1,7 @@
 import java.sql.*;
 import java.util.*;
 
-public class ProfessoresDao {
+public class JogosDao {
     private final static String sqlCreateTable = "CREATE TABLE jogos " 
         + "(id BIGINT NOT NULL GENERATED ALWAYS AS IDENTITY(START WITH 1, INCREMENT BY 1),"
         + "nomea VARCHAR(100) NOT NULL,"
@@ -19,7 +19,7 @@ public class ProfessoresDao {
 	private PreparedStatement stmU;
 	private PreparedStatement stmD;
 	private PreparedStatement stmRById;
-	public ProfessoresDao(ConexaoJavaDb conexao) throws DaoException, ConexaoException {
+	public JogosDao(ConexaoJavaDb conexao) throws DaoException, ConexaoException {
 		try {
 			Connection con = conexao.getConnection();
             try {
