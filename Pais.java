@@ -1,15 +1,16 @@
 public class Pais {
     private long id;
     private String nome;
-    private String Continente;
+    private String continente;
     private String populacao;
     
-    public Pais() {}
+    public Pais() {
+    }
     
     public Pais (long id, String n, String c, String p) {
         this.id = id;
         nome = n;
-        Continente = c;
+        continente = c;
         populacao = p;
     }
     
